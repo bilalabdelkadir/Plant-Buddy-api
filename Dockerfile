@@ -18,7 +18,7 @@ COPY ./app /app
 WORKDIR /app
 
 # Inform Docker that our app will communicate on port 8000
-EXPOSE 8000
+EXPOSE 7000
 
 # Set of commands to execute:
 # 1. Create a Python virtual environment inside the container
